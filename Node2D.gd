@@ -10,6 +10,7 @@ func _ready():
 	questions.append("3. The person you want to be with ?")
 	questions.append("4. What did you think of the last question ?")
 	$DisplayText.text = questions[0]
+	
 func _on_Play_Button_pressed():
 	if questions_number < len(questions)-1: 
 		answers.append($PlayerInput.text)

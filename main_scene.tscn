@@ -35,7 +35,7 @@ margin_top = 24.0
 margin_right = 1004.0
 margin_bottom = 81.0
 custom_fonts/font = SubResource( 1 )
-text = "CHAI"
+text = "HELLO!!"
 autowrap = true
 
 [node name="PlayerInput" type="TextEdit" parent="."]
